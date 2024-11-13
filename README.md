@@ -21,7 +21,8 @@ This example will run the `check` goal inside of Travis CI, and the `write` goal
       <artifactId>prettier-maven-plugin</artifactId>
       <version>0.16</version>
       <configuration>
-        <prettierJavaVersion>2.0.0</prettierJavaVersion>
+        <!-- Find the latest version at https://github.com/jhipster/prettier-java/releases -->
+        <prettierJavaVersion>2.6.5</prettierJavaVersion>
         <printWidth>90</printWidth>
         <tabWidth>2</tabWidth>
         <useTabs>false</useTabs>

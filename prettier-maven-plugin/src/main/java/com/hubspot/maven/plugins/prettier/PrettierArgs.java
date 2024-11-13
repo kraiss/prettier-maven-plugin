@@ -49,7 +49,7 @@ public abstract class PrettierArgs extends AbstractMojo {
   @Parameter(defaultValue = "", property = "prettier.npmPath")
   private String npmPath;
 
-  @Parameter(defaultValue = "0.7.0", property = "prettier.prettierJavaVersion")
+  @Parameter(defaultValue = "2.6.5", property = "prettier.prettierJavaVersion")
   protected String prettierJavaVersion;
 
   // TODO remove
